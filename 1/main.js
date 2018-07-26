@@ -70,5 +70,25 @@
         ctx.stroke()
         
         //Customizing Drawing Styles (Colors and Textures) 
+        
+        // Set ﬁll color to red 
+        ctx.fillStyle = "red"
+        // Draw a red ﬁlled rectangle
+        ctx.fillRect(310,160,100,50)
+
+        // Set stroke color to green 
+        ctx.strokeStyle = "green"; 
+        // Draw a green stroked rectangle 
+        ctx.strokeRect(310,240,100,50);
+
+        // Set ﬁll color to red using rgb() 
+        ctx.fillStyle="rgb(255,0,0)"
+        // Draw a red ﬁlled rectangle 
+        ctx.fillRect(420,160,100,50)
+        // Set ﬁll color to green with an alpha of 0.5 
+        ctx.fillStyle = "rgba(0,255,0,0.6)"; 
+        // Draw a semi transparent green ﬁlled rectangle 
+        ctx.fillRect (450,180,100,50);
+        
     } 
   
