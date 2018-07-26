@@ -69,6 +69,6 @@
         ctx.arc(200,300,25,0,1.5*Math.PI,false)
         ctx.stroke()
         
-        
+        //Customizing Drawing Styles (Colors and Textures) 
     } 
   
