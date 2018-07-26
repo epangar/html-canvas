@@ -20,5 +20,25 @@
         ctx.clearRect(210,20,30,20)
         // Clear a rectangle of width 30 and height 20 pixels at (260,20) 
         ctx.clearRect(260,20,30,20)
+        
+        
+
+
+        // Drawing complex shapes 
+        // Filled triangle
+
+        ctx.beginPath();
+        ctx.moveTo(10,120)
+        ctx.lineTo(10,180)
+        ctx.lineTo(110,150)
+        ctx.fill()
+
+        // Stroked triangle 
+        ctx.beginPath()
+        ctx.moveTo(140,160)
+        ctx.lineTo(140,220)
+        ctx.lineTo(40,190)
+        ctx.closePath()
+        ctx.stroke()
     } 
   
